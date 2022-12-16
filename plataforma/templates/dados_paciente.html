@@ -12,7 +12,11 @@
 <br>
 <div class="row">
 <div class="col-md-3">
-<img src="{% static 'plataforma/img/perfil1.png' %}">
+    {% if paciente.sexo == "M"%}
+    <img src="{% static 'plataforma/img/perfil2.png' %}">
+    {% else %}
+    <img src="{% static 'plataforma/img/perfil1.png' %}">
+    {% endif %}
 </div>
 
 
