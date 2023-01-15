@@ -1,2 +1,2 @@
-# Projeto-nutri-lab-nUtri-o
+# NutriLab
 Projeto desenvolvido com alxilio da pystak week 4.0
